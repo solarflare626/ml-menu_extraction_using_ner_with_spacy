@@ -1,0 +1,3 @@
+1. Install requirements or run pip install spacy
+2. train spacy model "python train.py"
+3. run extractor "python spacy-extractor.py"

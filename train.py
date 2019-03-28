@@ -56,6 +56,7 @@ MENU_ONLY_DATA = [
     ("fried chicken ", {"entities": [(0, 13, LABEL)]}),
     ("Falafel", {"entities": [(0,7, LABEL)]}),
     ("falafel", {"entities": [(0,7, LABEL)]}),
+    ("Kibbeh Bi Laban", {"entities": [(0,15, LABEL)]}),
 ]
 
 GOOD_DATA = [ 
@@ -70,6 +71,7 @@ GOOD_DATA = [
         ("What is falafel?",{"entities": [(8, 15, LABEL)]}),
         ("a good falafel  contains fava bean croquettes", {"entities": [(7, 14, LABEL)]},),
         ("Chicken Livers pomegranate molasses, lemon, sumac $17",{"entities": [(0, 14, LABEL )]}),
+        ("Kibbeh Bi Laban beef dumplings, yogurt, kouzbara, aleppo pepper, mint $24",{"entities": [(0, 15, LABEL )]}),
 
 ]
 
