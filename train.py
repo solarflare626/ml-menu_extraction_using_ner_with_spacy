@@ -32,6 +32,7 @@ import plac
 import random
 from pathlib import Path
 import spacy
+from training_data import Data
 from spacy.util import minibatch, compounding
 
 
@@ -47,7 +48,8 @@ PRICE = "PRICE"
 
 
 BAD_DATA = [
-        ("Do they taste good?", {"entities": []})
+        ("Do they taste good?", {"entities": []}),
+        ("gluten free", {"entities": []}),
 ]
 
 MENU_ONLY_DATA = [
@@ -57,10 +59,15 @@ MENU_ONLY_DATA = [
     ("Falafel", {"entities": [(0,7, LABEL)]}),
     ("falafel", {"entities": [(0,7, LABEL)]}),
     ("Kibbeh Bi Laban", {"entities": [(0,15, LABEL)]}),
+    ("Beef Shawarma", {"entities": [(0,len("Beef Shawarma"), LABEL)]}),
+    ("Beef Fried Kibbeh", {"entities": [(0,len("Beef Fried Kibbeh"), LABEL)]}),
+    ("Beef Fried Kibbeh\n", {"entities": [(0,len("Beef Fried Kibbeh"), LABEL)]}),
+    ("Arnabeet Mekle", {"entities": [(0,len("Arnabeet Mekle"), LABEL)]}),
 ]
 
 GOOD_DATA = [ 
         ("Fried Chicken is good", {"entities": [(0, 13, LABEL)]}),
+        
         ("Fried Chicken are too tall and they pretend to care about your feelings", {"entities": [(0, 13, LABEL)]}),
         ("Fried Chicken: fried chickpea & fava bean croquettes", {"entities": [(0, 13, LABEL)]}),
         ("a good fried chicken  contains fava bean croquettes", {"entities": [(7, 20, LABEL)]}),
@@ -75,7 +82,7 @@ GOOD_DATA = [
 
 ]
 
-TRAIN_DATA = GOOD_DATA + MENU_ONLY_DATA + BAD_DATA
+TRAIN_DATA = GOOD_DATA + MENU_ONLY_DATA + BAD_DATA + Data.training_data() + Data.price_data()
 
 
 @plac.annotations(
@@ -103,8 +110,9 @@ def main(model=None, new_model_name="menu", output_dir="models/menu", n_iter=30)
         ner = nlp.get_pipe("ner")
 
     ner.add_label(LABEL)  # add new entity label to entity recognizer
+    ner.add_label(PRICE)  # add new entity label to entity recognizer
     # Adding extraneous labels shouldn't mess anything up
-    ner.add_label("VEGETABLE")
+    # ner.add_label("VEGETABLE")
     if model is None:
         optimizer = nlp.begin_training()
     else:
