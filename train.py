@@ -63,6 +63,11 @@ MENU_ONLY_DATA = [
     ("Beef Fried Kibbeh", {"entities": [(0,len("Beef Fried Kibbeh"), LABEL)]}),
     ("Beef Fried Kibbeh\n", {"entities": [(0,len("Beef Fried Kibbeh"), LABEL)]}),
     ("Arnabeet Mekle", {"entities": [(0,len("Arnabeet Mekle"), LABEL)]}),
+    ("Pear Almond Cake", {"entities": [(0,len("Pear Almond Cake"), LABEL)]}),
+    ("Chocolate Cake", {"entities": [(0,len("Chocolate Cake"), LABEL)]}),
+    ("Chocolate Cake\n", {"entities": [(0,len("Chocolate Cake"), LABEL)]}),
+    ("\nChocolate Cake", {"entities": [(1,len("Chocolate Cake")+1, LABEL)]}),
+    ("\nChocolate Cake\n", {"entities": [(1,len("Chocolate Cake")+1, LABEL)]}),
 ]
 
 GOOD_DATA = [ 
