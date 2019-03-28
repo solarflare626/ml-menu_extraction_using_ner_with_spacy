@@ -32,6 +32,24 @@ class Data:
             ("$20.99\n", {"entities": [(0, 6, PRICE)]}),
             ("\n$20.99", {"entities": [(1, 7, PRICE)]}),
             ("\n$20.99\n", {"entities": [(1, 7, PRICE)]}),
+
+            ("£1", {"entities": [(0, 2, PRICE)]}),
+            ("£1\n", {"entities": [(0, 2, PRICE)]}),
+            ("\n£1", {"entities": [(1, 3, PRICE)]}),
+            ("\n£1\n", {"entities": [(1, 3, PRICE)]}),
+            ("£20", {"entities": [(0, 3, PRICE)]}),
+            ("£20\n", {"entities": [(0, 3, PRICE)]}),
+            ("\n£20", {"entities": [(1, 4, PRICE)]}),
+            ("\n£20\n", {"entities": [(1, 4, PRICE)]}),
+            
+            ("£1.50", {"entities": [(0, 5, PRICE)]}),
+            ("£1\n", {"entities": [(0, 5, PRICE)]}),
+            ("\n£1.50", {"entities": [(1, 6, PRICE)]}),
+            ("\n£1.50\n", {"entities": [(1, 6, PRICE)]}),
+            ("£20.99", {"entities": [(0, 6, PRICE)]}),
+            ("£20.99\n", {"entities": [(0, 6, PRICE)]}),
+            ("\n£20.99", {"entities": [(1, 7, PRICE)]}),
+            ("\n£20.99\n", {"entities": [(1, 7, PRICE)]}),
         ]
 
     @staticmethod

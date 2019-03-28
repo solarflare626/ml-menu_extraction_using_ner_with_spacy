@@ -1,501 +1,167 @@
-
-Dinner at 5
-
-    Fish Crudo
-
-    Japanese kampachi dressed in yuzu, ginger, garlic, scallion, watermelon radish, cucumber, puffed black rice, avocado, micro cilantro
-
-    Toast Medley
-
-    toasted teff bread, house smoked salmon and sunflower ricotta spread, tomato basil salad, zucchini, shiitake, pistachio basil pesto
-
-    Crudite
-
-    hummus, romesco, pickled carrot fig, endive, marinated castelvetrano olives, roasted broccolini, activated seed cracker, soft boiled egg, pine nut dukkah
-
-    Ingrid's Soup
-
-    roasted broccoli, carrots, onion, spinach, garlic, green beans, herb oil, pea shoots
-
-    Salad Rolls
-
-    rice paper, petit mix greens, avocado, mango, daikon, carrot, cucumber, kiwi, watermelon radish, almond butter tamari sauce
-
-    Mixed Greens
-
-    lemon, salt, pepper, extra virgin olive oil
-
-    Roasted Veggie and Green salad
-
-    delicata squash, roasted beets, fennel, local mixed greens, lemon juice, tahini dressing
-
-    Cauliflower crust pizza
-
-    Pistachio basil pesto, roasted eggplant, caramelized red onion, smoked macadamia-cashew cheese, baby arugula, truffle oil
-
-    Green Curry Bowl
-
-    Kefir lime, shiitake mushrooms, French green beans, purple ninja radish, rainbow carrot, forbidden rice
-
-    Zaatar Chicken Sausage
-
-    house made chicken sausage, cauliflower rice, dinosaur kale, red onion, pickled grapes, tahini-cucumber sauce
-
-    Lobster Quinoa Spagetti
-
-    Quinoa noodles, maine lobster, white wine, basil, garlic, zucchini, purple mustard green harissa, roasted grape tomatoes, lemon
-
-    Branzino
-
-    Whole roasted topped with garlic Meyer lemon caper sauce, celery root, fennel, cherry tomatoes, sautéed spinach, basil parsley oil
-
-    Braised Beef
-
-    Pasture raised grass fed beef, baby carrots, roasted corn, zucchini, pickled red onions, radish, epazote, micro cilantro, guajillo and pasilla pepper mole
-
-    Pear Almond Cake
-
-    With coconut frozen custard, coconut lemongrass sauce
-
-    Chocolate Cake
-
-    With blood orange, raspberries, mint and amaranth crumble, horchata sauce, coconut frozen custard
-
-Breakfast from 7 till 3
-
-    Sweet Toast
-
-    Housemade teff bread, vanilla-cardamom cashew butter, pear sauce, walnut dukkah
-
-    Savory Toast
-
-    Housemade teff bread, avocado, herb salad, dukkah, 2 pasture-raised eggs
-
-    Coconut chia pudding
-
-    Coconut chia pudding, caramelized banana, cacao nib buckwheat crumble and almond butter drizzle
-
-    Granola Bowl
-
-    Housemade raw coconut yogurt, raw adaptogenic granola, fresh fruit, bee pollen, local honey
-
-    Breakfast Salad
-
-    Greens, house smoked Ora King Salmon, radish, activated seed crumble, lemon, extra virgin olive oil, fried egg
-
-    Breakfast Socca
-
-    Chickpea flour flatbread, arugula-hemp seed pesto, oven-roasted tomato, watermelon radish, avocado, fried pasture-raised egg
-
-    Buckwheat Pancake
-
-    Buckwheat pancake, raw coconut yogurt, raw granola crumble, lavender maple syrup, cornflower petals
-
-    Baked Eggs
-
-    Cabbage, shallots, caraway, housemade chicken sausage, avocado, housemade sunflower ricotta, 2 pasture-raised eggs any style - Add a slice of house made teff bread
-
-    Winter Breakfast Hash
-
-    Sweet potato, baby spinach, smoked macadamia nut cheese, pasture raised fried eggs, roasted tomato salsa, micro cilantro
-
-    Sides:
-
-    Housemade Chicken Sausage
-
-    Egg Any Style
-
-    Slice of Housemade Teff Bread with ghee
-
-    House Smoked Ora King Salmon
-
-    Green Salad
-
-Lunch from 11 till 3
-
-    Rainbow Carrot-Radish Salad
-
-    Rainbow carrot, watermelon radish, pistachio, housemade sunflower ricotta, mint, urfa pepper, meyer lemon
-
-    Carrot-Ginger Soup
-
-    Carrot, apple, ginger, toasted seed topping, cumin seed oil, micro cilantro
-
-    Golden Bone Broth Soup
-
-    Housemade chicken bone broth, coconut cream, lemon, turmeric, ginger, shredded roasted chicken, carrot, greens Bowl with all the fixings Cup of just broth Bowl or cup of just broth
-
-    Seasonal Kale Salad
-
-    Delicata squash, baby carrots, curly kale, macadamia nut cheese, pepita, sunflowers, roasted garlic lemon dressing Add on options: Shredded roasted chicken, salmon flakes, or fried egg
-
-    Greens + Grain Bowl
-
-    Greens, sprouted quinoa, fennel, roasted broccolini, avocado, housemade macadamia-cashew cheese, fennel pollen dressing Add on options: Shredded roasted chicken, salmon flakes, or fried egg
-
-    Za’atar Socca
-
-    Chickpea flour flatbread, eggplant-caramelized onion spread, herb salad, castelvetranos, pine nut dukkah, housemade sunflower ricotta, avocado add on option: Shredded roasted chicken
-
-    Soba Noodle Bowl
-
-    Buckwheat soba noodles, carrot, daikon, cucumber, house pickled shiitake, toasted cashew, jalapeno, herbs, tamari, sesame Add on option: Shredded roasted chicken
-
-    Salmon Rice Bowl
-
-    House heirloom rice blend, Ora king salmon, green beans, herbs, lemon-caper dressing
-
-    Side Simple Green Salad
-
-Kids from 7 till 3
-
-    Avocado Toast with Scrambled Eggs
-
-    Housemade teff bread, avocado, scrambled egg
-
-    Sweet Toast **all proceeds to No Kid Hungry
-
-    Housemade teff bread, cashew butter, fresh fruit
-
-    Pancake
-
-    Buckwheat pancake, banana, dried raspberry, maple syrup
-
-    Banana-Cacao Chia Pudding Parfait
-
-    Frozen banana nice cream, blended cacao-coconut chia pudding, cacao nibs
-
-    Berry Smoothie
-
-    Banana, cauliflower, mixed berries, hemp, coconut milk, honey
-
-    Quinoa Pasta Butternut Mac + Cheeze
-
-    Quinoa pasta, butternut-cauliflower cheeze sauce, crunchy cashew topping
-
-    Baby Food Purées
-
-    Carrot or pear
-
-In the pastry case
-
-    Walnut Cardamom Bliss Balls
-
-    Walnut, almond, medjool date, coconut oil, vanilla, cardamom, cinnamon, ginger
-
-    Root Veggie Muffins
-
-    Almond-coconut-carrot-zucchini muffin, coconut-walnut streusel
-
-    Pistachio Thumbprint Cookie with Rose Cashew Creme
-
-    Almond-coconut-pistachio cookie with rose cashew creme
-
-    Meyer Lemon-Poppy Seed Tart
-
-    Cashew, coconut, coconut nectar, meyer lemon, vanilla, poppy seed, walnut-almond-apricot crust
-
-
-
-
-
-
-/*     https://www.jeffreysgrocery.com/menus/#brunch */    
-
-SALAD + SANDWICHES
-
-    CAESAR
-
-    smoked whitefish dressing, croutons and parmesan
-
-    add chicken +6 / add shrimp +8
-
-    $14
-    CRAB & AVOCADO TOAST
-
-    lemon, malt vinegar, soy, bonito chili flakes and lettuces
-
-    $23
-    CHICKEN BURGER
-
-    lettuce, tomato, fresno chillis, jalapeño aioli, french fires
-
-    $18
-    BACON DOUBLE CHEESEBURGER
-
-    american cheese, special sauce, pickles, french fries
-
-    $22
-
-    THE FRESSER PLATTER FOR TWO
-
-    smoked sable, house cured gravlox, smoked salmon, whitefish salad, soft scrambled eggs with caviar, latkes, créme fraîche with salmon roe and breads
-
-    $70
-
-EGGS + PANCAKES
-
-    Whitefish Toast
-
-    two eggs any style, crispy capers, lettuces and multigrain
-
-    $18
-    Spinach-Artichoke Benedict
-
-    poached eggs, hollandaise, home fries
-
-    $20
-    Bloody Mary Rock Shrimp
-
-    fried shrimp, soft scrambled eggs, avocado, lime crema, tortilla crisps
-
-    $22
-    Bagel & Lox
-
-    house cured gravlox, cream cheese, tomato, red onion and capers
-
-    $18
-    Fried Egg Sandwich
-
-    wilted spinach, gruyere, pickled peppers, english muffin, fries and lettuces
-
-    $18
-    Toasted Barley Bowl
-
-    poached eggs, asparagus, mushrooms, scallions, parmesan
-
-    $19
-    Omelette
-
-    ham, swiss, caramelized onion, red pepper, country bread
-
-    $18
-    Pancakes
-
-    apple compote, maple syrup
-
-    $16
-
-    MAKE IT A JEFFREY!
-
-    Ask your server!
-
-Raw Bar
-
-    OYSTERS
-    MARINATED MUSSELS
-    LITTLENECK CLAMS
-    KING CRAB LEGS
-
+CUMBRAE OYSTERS
+NIBBLES
+Ham Salt & Cheese Popcorn £1.00 Olives [V V ] £3.25 Black Pepper Pork Crackling £1.50 Garlic Bread (V) £3.50 Miso Honey Chipolatas £2.00 Quail’s Eggs, Celery Salt [V] £2.00 Served with lemon, tabasco, raspberry
+& shallot vinegar
+or
+Beer battered, served with a jalapeno
+tartare sauce
+Sourdough Bread (V)
+Herb butter £3.50 Whipped Cream Cheese
+Celery, honey, truffle oil £1.50 One £2.50
+Six £14.00
+Twelve £26.00
+STARTERS
+Smoked Haddock Fishcake		
+£6.50
+Watercress, lemon & lime mayonnaise Pulled Beef Bon Bons
+Burnt onion mayonnaise £8.00 Potted Beef
+£6.50
+Toasted sourdough, American mustard
+Cauliflower Cheese Soufflé (V)
+Twice baked, pickled red cabbage £7.50 Goan Chicken Skewer
+Pico de gallo, mint yoghurt £7.00 Torched Red Pepper Houmous (VV)
+Crudités, garlic crisp breads
+£6.50
+Moules Marinière £8.25 £8.00 Chicken Liver Parfait
+Bacon jam, toasted brioche
+£7.50
+Piri Piri Calamari
+Saffron Aioli £7.00 Smoked Salmon Roulade
+Cream cheese, dill,
+chives, crisp breads
+BEEF
+All cuts are minimum 28 days wet & dry aged and air dried for 24 hours in our Himalayan Rock salt chamber to provide an enhanced flavour.
+All steaks are served with either chips or mash.
+CLASSIC SELECTED
+Rump - Australian
+227g – £17.00 / 280g – £21.00 Scotch
+PGI certified beef, personally selected
+& sourced from a co-operative of
+Scottish farms.
+Fillet - 227g – £40.00
+Sirloin - 280g – £30.00
+Ribeye - 280g – £32.00
+Sirloin - English
+227g – £23.00 / 340g – £29.00
+Fillet - Irish
+200g – £26.00 / 227g – £30.00 / 280g – £38.00
+English Longbone (Tomahawk)
+		
+800g – £49.00
+		1.2kg – £65.00
+		1.5kg – £80.00
+		
+		
+Australian Chateaubriand
+400g – £58.00
+800g – £105.00
+Australian Aberdeen Black Angus
+Grain fed for raindrop marbling
+Fillet – 280g – £47.00
+Ribeye - Argentinian
+280g – £24.00 / 340g – £28.00
+STEAK EXTRAS & SAUCES
+SHARING CUTS
+Prawn skewer £6.00 Half lobster £26.50 Pork chop £7.00 Lamb chop £7.00
+Peppercorn sauce £2.50 Blue cheese sauce £2.95 Bearnaise sauce £2.50
+Chop gravy £2.50
+SEAFOOD
+Loch Duart Seared Salmon
+£17.00
+Pea tortellini, citrus mayonnaise, parsley oil Chargrilled Swordfish
+Skinny chips, pico de gallo £21.00
+Pan-Fried Seabass
+£19.00
+Seasonal greens, lemon beurre blanc Stonebass Fillet
+Spinach, capers, vine tomato,
+beurre blanc £17.50
+Whole / Half Grilled Lobster £5.50 per 100g
+(ask server for todays weight)
+with chips & garlic butter or thermidor sauce
+Classic Fish & Chips
+Mushy peas, tartare sauce
+£13.75
+GRILLS AND MAINS
+Caesar Salad
+Add Chargrilled Chicken
+£10.00
++£2.50
+Blackhouse Burger
+£12.50
+Shredded lettuce, tomato, glazed brioche
+bun, chips, tomato relish
+- Caramelised onion
++£1.50
+- Beef brisket burnt ends
++£1.50
+- Mature cheddar
++£1.00
+- Bacon
++£1.50
+- Stilton
++£1.50
+- FULL HOUSE (all of the above)
+£17.50
+Fajitas
+– Fillet steak
+£14.50
+– Chicken breast
+£13.95
+– King prawn
+£18.95
+Served with tortillas, salsa, guacamole,
+sour cream & cheese on a sizzling plate
+with peppers & onions
+Miso Glazed Aubergine Steak [VV]
+£13.50
+Jewelled cous cous, red pepper houmous,
+scorched cherry tomatoes
+Half-Roasted Chicken
+£14.95
+Skinny chips, stuffing, proper gravy
+Blackhouse Steak Sandwich
+£13.50
+Fillet steak, onion, mushroom, burnt onion
+mayonnaise, horseradish cream, mature cheddar
+A Plate of Chops
+Chop gravy, chips, seasoning salt
+- Lamb 2/£14.50 3/£17.00 4/£20.00
+- Pork 1/£13.00 2/£16.00 3/£18.00
+- Sharing plate £35.00
+Halloumi & Vegetable Kebab (V)
+£13.50
+Halloumi, courgette, peppers, mushrooms,
+jewelled cous cous, tortilla,
+sour cream, Cholula hot sauce
 SIDES
-
-    Lettuces
-
-    red wine honey vinaigrette
-
-    $8
-    Hand Cut Fries
-
-    classic or spices, salt & vinegar aioli
-
-    $9
-    Avocado Toast
-
-    $9
-    Smoked Salmon
-
-    $12
-    Soft & Crispy Bacon
-
-    $9
-    Potato Latke & Sour Cream
-
-    $8
-    Fruit Salad
-
-    $9
-    Breakfast Sausage
-
-    $9
-
-Cocktails
-
-    Bloody Mary No. 20
-
-    vodka, tomato, olive, beer chaser with traditional, dill, or cilantro infused vodka
-
-    $15
-    Bloody Caesar
-
-    vodka, clamato, chipotle, cocktail onion cornichon, oyster, shrimp
-
-    $18
-    Not Your Mama's Michelada
-
-    pilsner, tomato, cholula, lime, orange
-
-    $12
-    Lana Cel Ray
-
-    celery vodka, basil, lime, cel-ray soda
-
-    $14
-    Golden Gate
-
-    pimms, rye, lemon, cucumber, mint
-
-    $15
-    Tulum With Love
-
-    jalapeño tequila, mint, cucumber, lime, simple
-
-    $16
-
-Coffee
-Stumptown
-
-    Happy Cooking Drip
-
-    $3.50
-    Cold Brew
-
-    $4.50
-    Espresso
-
-    $3.75
-    Americano
-
-    $3.75
-    Macchiato
-
-    $4
-    Cortado
-
-    $4
-    Cappuccino
-
-    $4.50
-    Latte
-
-    $4.50
-
-Tea
-In Pursuit of Tea
-
-    Green
-
-    $4.50
-    English Breakfast
-
-    $4.50
-    Chai
-
-    $4.50
-    Peppermint
-
-    $4.50
-
-
-Eggs
-
-    Omelette
-
-    ham, swiss, caramelized onion, red pepper, country bread
-
-    $18
-    Fried Egg Sandwich
-
-    wilted spinach, gruyere, pickled peppers, english muffin, fries, lettuces
-
-    $18
-    Smoked Salmon & Latkes
-
-    poached eggs, avocado, sour cream
-
-    $21
-
-Mains
-
-    Pork Reuben
-
-    sauerkraut, Russian dressing, gruyere, rye toast, french fries
-
-    $20
-    Crab & Avocado Toast
-
-    lemon, malt vinegar, soy, bonito, chili flakes, lettuces
-
-    $23
-    Chicken Burger
-
-    lettuce, tomato, fresno chilis, jalapeño aioli, french fries
-
-    $18
-    Mussels
-
-    madras curry, coconut milk, chili, herbs
-
-    $22
-    Nicoise Salad
-
-    pole caught American tuna, haricots verts, cherry tomatoes, baby potatoes, olives, hard boiled egg, anchovy, sherry vinaigrette
-
-    $20
-
-Soup + Salad
-
-    Rhode Island Clam Chowder
-
-    bacon, red potatoes, oyster crackers
-
-    $15
-    Caesar
-
-    smoked whitefish dressing, croutons, parmesan
-
-    $14
-
-    add chicken $6
-
-    add shrimp $8
-
-Sides
-
-    Lettuces
-
-    red wine honey vinaigrette
-
-    $8
-    Hand Cut Fries
-
-    classic or spiced, salt & vinegar aioli
-
-    $9
-    Avocado toast
-
-    $9
-    Smoked Salmon
-
-    $12
-    Potato Latke
-
-    $8
-
-Raw Bar
-
-    Oysters
-    Littleneck Clams
-    Shrimp Cocktail
-    King Crab Legs
-
-    Le Royale
-
-    12 oysters, 6 littlenecks, 6 shrimp cocktail, 1/2 lobster, 1/2 lb king crab legs and marinated mussels
-
-    $100
-    Le Joffrey
-
-    16 oysters, 8 littlenecks, 8 shrimp cocktail, 1/2 lobster, 1/2 lb king crab legs, crudo, diver scallop, and marinated mussels
-
-    $135
-
+Blackhouse Chips
+£3.50
+Skinny Chips
+£3.50
+Salt-Baked Sweet Potato
+£4.00
+Garlic Mushrooms
+£4.50
+Baby onions, tarragon butter
+Seasonal Greens
+£4.00
+Minted Butter New Potatoes £4.00
+Buttered Mash
+£4.50
+Mature Cheddar &
+£4.50
+Spring Onion Mash
+Blackhouse Mac & Cheese
+£4.50
+Burnt ends
+Crispy Onion Pudding
+£4.00
+Dripping gravy, soured cream
+Steamed Broccoli
+Creamed Spinach
+Chopped English Salad
+Onion Rings
+£4.25
+£5.50
+£4.50
+£4.50
