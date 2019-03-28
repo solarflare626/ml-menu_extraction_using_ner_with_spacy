@@ -1,3 +1,4 @@
+import json
 LABEL = "MENU"
 PRICE = "PRICE"
 class Data:
@@ -32,3 +33,30 @@ class Data:
             ("\n$20.99", {"entities": [(1, 7, PRICE)]}),
             ("\n$20.99\n", {"entities": [(1, 7, PRICE)]}),
         ]
+
+    @staticmethod
+    def lighttag_data(filePath):
+        training_data = []
+        print("Extracting data from lighttag datas: ", filePath)
+        f = open(filePath)
+        text = f.read()
+        datas = json.loads(text)
+        #transform
+        
+        for data in datas:
+            values = data["annotations_and_examples"]
+            for value in values:
+                content = value["content"]
+                annotations = value["annotations"]
+                entities = []
+
+                for annotation in annotations:
+                    entity = (annotation["start"],annotation["end"],annotation["tag"])
+                    entities.append(entity)
+                
+                hold = (content,{"entities": entities})
+
+                training_data.append(hold)
+
+        return training_data
+

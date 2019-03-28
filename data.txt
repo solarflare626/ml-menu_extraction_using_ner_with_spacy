@@ -1,22 +1,5 @@
 
-
-    Walnut Cardamom Bliss Balls
-
-    Walnut, almond, medjool date, coconut oil, vanilla, cardamom, cinnamon, ginger
-
-    Root Veggie Muffins
-
-    Almond-coconut-carrot-zucchini muffin, coconut-walnut streusel
-
-    Pistachio Thumbprint Cookie with Rose Cashew Creme
-
-    Almond-coconut-pistachio cookie with rose cashew creme
-
-    Meyer Lemon-Poppy Seed Tart
-
-    Cashew, coconut, coconut nectar, meyer lemon, vanilla, poppy seed, walnut-almond-apricot crust
-
-
+Dinner at 5
 
     Fish Crudo
 
@@ -78,8 +61,7 @@
 
     With blood orange, raspberries, mint and amaranth crumble, horchata sauce, coconut frozen custard
 
-
-
+Breakfast from 7 till 3
 
     Sweet Toast
 
@@ -129,7 +111,7 @@
 
     Green Salad
 
-
+Lunch from 11 till 3
 
     Rainbow Carrot-Radish Salad
 
@@ -165,6 +147,93 @@
 
     Side Simple Green Salad
 
+Kids from 7 till 3
+
+    Avocado Toast with Scrambled Eggs
+
+    Housemade teff bread, avocado, scrambled egg
+
+    Sweet Toast **all proceeds to No Kid Hungry
+
+    Housemade teff bread, cashew butter, fresh fruit
+
+    Pancake
+
+    Buckwheat pancake, banana, dried raspberry, maple syrup
+
+    Banana-Cacao Chia Pudding Parfait
+
+    Frozen banana nice cream, blended cacao-coconut chia pudding, cacao nibs
+
+    Berry Smoothie
+
+    Banana, cauliflower, mixed berries, hemp, coconut milk, honey
+
+    Quinoa Pasta Butternut Mac + Cheeze
+
+    Quinoa pasta, butternut-cauliflower cheeze sauce, crunchy cashew topping
+
+    Baby Food Purées
+
+    Carrot or pear
+
+In the pastry case
+
+    Walnut Cardamom Bliss Balls
+
+    Walnut, almond, medjool date, coconut oil, vanilla, cardamom, cinnamon, ginger
+
+    Root Veggie Muffins
+
+    Almond-coconut-carrot-zucchini muffin, coconut-walnut streusel
+
+    Pistachio Thumbprint Cookie with Rose Cashew Creme
+
+    Almond-coconut-pistachio cookie with rose cashew creme
+
+    Meyer Lemon-Poppy Seed Tart
+
+    Cashew, coconut, coconut nectar, meyer lemon, vanilla, poppy seed, walnut-almond-apricot crust
+
+
+
+
+
+
+/*     https://www.jeffreysgrocery.com/menus/#brunch */    
+
+SALAD + SANDWICHES
+
+    CAESAR
+
+    smoked whitefish dressing, croutons and parmesan
+
+    add chicken +6 / add shrimp +8
+
+    $14
+    CRAB & AVOCADO TOAST
+
+    lemon, malt vinegar, soy, bonito chili flakes and lettuces
+
+    $23
+    CHICKEN BURGER
+
+    lettuce, tomato, fresno chillis, jalapeño aioli, french fires
+
+    $18
+    BACON DOUBLE CHEESEBURGER
+
+    american cheese, special sauce, pickles, french fries
+
+    $22
+
+    THE FRESSER PLATTER FOR TWO
+
+    smoked sable, house cured gravlox, smoked salmon, whitefish salad, soft scrambled eggs with caviar, latkes, créme fraîche with salmon roe and breads
+
+    $70
+
+EGGS + PANCAKES
 
     Whitefish Toast
 
@@ -206,3 +275,227 @@
     apple compote, maple syrup
 
     $16
+
+    MAKE IT A JEFFREY!
+
+    Ask your server!
+
+Raw Bar
+
+    OYSTERS
+    MARINATED MUSSELS
+    LITTLENECK CLAMS
+    KING CRAB LEGS
+
+SIDES
+
+    Lettuces
+
+    red wine honey vinaigrette
+
+    $8
+    Hand Cut Fries
+
+    classic or spices, salt & vinegar aioli
+
+    $9
+    Avocado Toast
+
+    $9
+    Smoked Salmon
+
+    $12
+    Soft & Crispy Bacon
+
+    $9
+    Potato Latke & Sour Cream
+
+    $8
+    Fruit Salad
+
+    $9
+    Breakfast Sausage
+
+    $9
+
+Cocktails
+
+    Bloody Mary No. 20
+
+    vodka, tomato, olive, beer chaser with traditional, dill, or cilantro infused vodka
+
+    $15
+    Bloody Caesar
+
+    vodka, clamato, chipotle, cocktail onion cornichon, oyster, shrimp
+
+    $18
+    Not Your Mama's Michelada
+
+    pilsner, tomato, cholula, lime, orange
+
+    $12
+    Lana Cel Ray
+
+    celery vodka, basil, lime, cel-ray soda
+
+    $14
+    Golden Gate
+
+    pimms, rye, lemon, cucumber, mint
+
+    $15
+    Tulum With Love
+
+    jalapeño tequila, mint, cucumber, lime, simple
+
+    $16
+
+Coffee
+Stumptown
+
+    Happy Cooking Drip
+
+    $3.50
+    Cold Brew
+
+    $4.50
+    Espresso
+
+    $3.75
+    Americano
+
+    $3.75
+    Macchiato
+
+    $4
+    Cortado
+
+    $4
+    Cappuccino
+
+    $4.50
+    Latte
+
+    $4.50
+
+Tea
+In Pursuit of Tea
+
+    Green
+
+    $4.50
+    English Breakfast
+
+    $4.50
+    Chai
+
+    $4.50
+    Peppermint
+
+    $4.50
+
+
+Eggs
+
+    Omelette
+
+    ham, swiss, caramelized onion, red pepper, country bread
+
+    $18
+    Fried Egg Sandwich
+
+    wilted spinach, gruyere, pickled peppers, english muffin, fries, lettuces
+
+    $18
+    Smoked Salmon & Latkes
+
+    poached eggs, avocado, sour cream
+
+    $21
+
+Mains
+
+    Pork Reuben
+
+    sauerkraut, Russian dressing, gruyere, rye toast, french fries
+
+    $20
+    Crab & Avocado Toast
+
+    lemon, malt vinegar, soy, bonito, chili flakes, lettuces
+
+    $23
+    Chicken Burger
+
+    lettuce, tomato, fresno chilis, jalapeño aioli, french fries
+
+    $18
+    Mussels
+
+    madras curry, coconut milk, chili, herbs
+
+    $22
+    Nicoise Salad
+
+    pole caught American tuna, haricots verts, cherry tomatoes, baby potatoes, olives, hard boiled egg, anchovy, sherry vinaigrette
+
+    $20
+
+Soup + Salad
+
+    Rhode Island Clam Chowder
+
+    bacon, red potatoes, oyster crackers
+
+    $15
+    Caesar
+
+    smoked whitefish dressing, croutons, parmesan
+
+    $14
+
+    add chicken $6
+
+    add shrimp $8
+
+Sides
+
+    Lettuces
+
+    red wine honey vinaigrette
+
+    $8
+    Hand Cut Fries
+
+    classic or spiced, salt & vinegar aioli
+
+    $9
+    Avocado toast
+
+    $9
+    Smoked Salmon
+
+    $12
+    Potato Latke
+
+    $8
+
+Raw Bar
+
+    Oysters
+    Littleneck Clams
+    Shrimp Cocktail
+    King Crab Legs
+
+    Le Royale
+
+    12 oysters, 6 littlenecks, 6 shrimp cocktail, 1/2 lobster, 1/2 lb king crab legs and marinated mussels
+
+    $100
+    Le Joffrey
+
+    16 oysters, 8 littlenecks, 8 shrimp cocktail, 1/2 lobster, 1/2 lb king crab legs, crudo, diver scallop, and marinated mussels
+
+    $135
+

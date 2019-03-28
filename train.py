@@ -87,7 +87,8 @@ GOOD_DATA = [
 
 ]
 
-TRAIN_DATA = GOOD_DATA + MENU_ONLY_DATA + BAD_DATA + Data.training_data() + Data.price_data()
+TRAIN_DATA = GOOD_DATA + MENU_ONLY_DATA + BAD_DATA + Data.training_data() + Data.price_data() +Data.lighttag_data('data/lighttag.json')
+
 
 
 @plac.annotations(
