@@ -11,7 +11,7 @@ def extract(text):
     
 
 
-f = open("data.txt","r")
+f = open("text.txt","r")
 text = f.read()
 # text = text.replace('\n', ' ')
 # text = text.replace('  ', ' ')

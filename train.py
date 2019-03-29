@@ -48,51 +48,23 @@ PRICE = "PRICE"
 # model might learn the new type, but "forget" what it previously knew.
 # https://explosion.ai/blog/pseudo-rehearsal-catastrophic-forgetting
 
+TRAIN_DATA = []
+BAD_DATA = Data.read_training_data("datas/BAD_DATA.txt")
 
-BAD_DATA = [
-        ("Do they taste good?", {"entities": []}),
-        ("NER systems have been created that use linguistic grammar-based techniques as well as statistical models such as machine learning. Hand-crafted grammar-based systems typically obtain better precision, but at the cost of lower recall and months of work by experienced computational linguists . Statistical NER systems typically require a large amount of manually annotated training data. Semi-supervised approaches have been suggested to avoid part of the annotation effort.\nState-of-the-Art NER Models\nspaCy NER Model :", {"entities": []}),
-        ("What is Named Entity Recognition?", {"entities": []}),
-        ("gluten free", {"entities": []}),
-        ("+", {"entities": []}),
-]
+MENU_ONLY_DATA = Data.read_training_data("datas/MENU_ONLY_DATA.txt")
 
-MENU_ONLY_DATA = [
-    ("Fried Chicken", {"entities": [(0, 13, LABEL)]}),
-    ("Fried Chicken ", {"entities": [(0, 13, LABEL)]}),
-    ("fried chicken ", {"entities": [(0, 13, LABEL)]}),
-    ("Falafel", {"entities": [(0,7, LABEL)]}),
-    ("falafel", {"entities": [(0,7, LABEL)]}),
-    ("Kibbeh Bi Laban", {"entities": [(0,15, LABEL)]}),
-    ("Beef Shawarma", {"entities": [(0,len("Beef Shawarma"), LABEL)]}),
-    ("Beef Fried Kibbeh", {"entities": [(0,len("Beef Fried Kibbeh"), LABEL)]}),
-    ("Beef Fried Kibbeh\n", {"entities": [(0,len("Beef Fried Kibbeh"), LABEL)]}),
-    ("Arnabeet Mekle", {"entities": [(0,len("Arnabeet Mekle"), LABEL)]}),
-    ("Pear Almond Cake", {"entities": [(0,len("Pear Almond Cake"), LABEL)]}),
-    ("Chocolate Cake", {"entities": [(0,len("Chocolate Cake"), LABEL)]}),
-    ("Chocolate Cake\n", {"entities": [(0,len("Chocolate Cake"), LABEL)]}),
-    ("\nChocolate Cake", {"entities": [(1,len("Chocolate Cake")+1, LABEL)]}),
-    ("\nChocolate Cake\n", {"entities": [(1,len("Chocolate Cake")+1, LABEL)]}),
-]
+GOOD_DATA = Data.read_training_data("datas/GOOD_DATA.txt")
 
-GOOD_DATA = [ 
-        ("Fried Chicken is good", {"entities": [(0, 13, LABEL)]}),
-        
-        ("Fried Chicken are too tall and they pretend to care about your feelings", {"entities": [(0, 13, LABEL)]}),
-        ("Fried Chicken: fried chickpea & fava bean croquettes", {"entities": [(0, 13, LABEL)]}),
-        ("a good fried chicken  contains fava bean croquettes", {"entities": [(7, 20, LABEL)]}),
-        ("fried fhicken ingredients fried chickpea & fava bean croquettes", {"entities": [(0,13, LABEL)]}),
-        ("Falafel fried chickpea & fava bean croquettes", {"entities": [(0,7, LABEL)]}),        
-        ("falafel fried chickpea & fava bean croquettes", {"entities": [(0,7, LABEL)]}),
-        ("falafel are too tall and they pretend to care about your feelings",{"entities": [(0, 7, LABEL)]}),
-        ("What is falafel?",{"entities": [(8, 15, LABEL)]}),
-        ("a good falafel  contains fava bean croquettes", {"entities": [(7, 14, LABEL)]},),
-        ("Chicken Livers pomegranate molasses, lemon, sumac $17",{"entities": [(0, 14, LABEL )]}),
-        ("Kibbeh Bi Laban beef dumplings, yogurt, kouzbara, aleppo pepper, mint $24",{"entities": [(0, 15, LABEL )]}),
+PRICE_DATA = Data.read_training_data("datas/PRICE_DATA.txt")
+# PRICE_DATA = Data.price_data()
 
-]
 
-TRAIN_DATA = GOOD_DATA + MENU_ONLY_DATA + BAD_DATA + Data.training_data() + Data.price_data() +Data.lighttag_data('data/lighttag.json')
+
+
+TRAIN_DATA = GOOD_DATA + MENU_ONLY_DATA + PRICE_DATA + BAD_DATA + Data.training_data()
+TRAIN_DATA += Data.lighttag_data('data/lighttag.json')
+#add generated pizza menus training data
+#NOTE: Takes time to train only train once
 TRAIN_DATA += Data.pizza_data()
 
 
@@ -128,7 +100,7 @@ def main(model="models/menu", new_model_name="menu", output_dir="models/menu", n
 
     ner.add_label(LABEL)  # add new entity label to entity recognizer
     ner.add_label(PRICE)  # add new entity label to entity recognizer
-    ner.add_label("PIZZA")  # add new entity label to entity recognizer
+    # ner.add_label("PIZZA")  # add new entity label to entity recognizer
     # Adding extraneous labels shouldn't mess anything up
     # ner.add_label("VEGETABLE")
     if model is None:

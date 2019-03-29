@@ -1,0 +1,8 @@
+[
+    ["Whitefish Toast\n\ntwo eggs any style, crispy capers, lettuces and multigrain\n\n$18", {"entities": [[0, 15, "MENU"], [77, 80, "PRICE"]]}], 
+    ["\nWhitefish Toast\n\ntwo eggs any style, crispy capers, lettuces and multigrain\n\n$18\n", {"entities": [[1, 16, "MENU"], [78, 81, "PRICE"]]}], 
+    ["Spinach-Artichoke Benedict\n\npoached eggs, hollandaise, home fries\n\n$20\n", {"entities": [[0, 26, "MENU"], [67, 70, "PRICE"]]}], 
+    ["\nSpinach-Artichoke Benedict\n\npoached eggs, hollandaise, home fries\n\n$20\n", {"entities": [[1, 27, "MENU"], [68, 71, "PRICE"]]}], 
+    ["Bagel & Lox\n\nhouse cured gravlox, cream cheese, tomato, red onion and capers\n\n$18", {"entities": [[0, 11, "MENU"], [78, 81, "PRICE"]]}], 
+    ["\nBagel & Lox\n\nhouse cured gravlox, cream cheese, tomato, red onion and capers\n\n$18\n", {"entities": [[1, 12, "MENU"], [79, 82, "PRICE"]]}]
+]
