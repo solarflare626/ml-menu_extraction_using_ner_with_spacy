@@ -34,8 +34,10 @@ from pathlib import Path
 import spacy
 from training_data import Data
 from spacy.util import minibatch, compounding
+from datetime import datetime
 
-
+#use gpu if cuda is available
+spacy.prefer_gpu()
 # new entity label
 LABEL = "MENU"
 PRICE = "PRICE"
@@ -165,4 +167,11 @@ def main(model=None, new_model_name="menu", output_dir="models/menu", n_iter=30)
 
 
 if __name__ == "__main__":
+    tstart = datetime.now()
+    print("Start Time: ", tstart)
+
     plac.call(main)
+    
+    tend = datetime.now()
+    print("End Time: ", tend)
+    print("Total Training Time: ", tend - tstart)
