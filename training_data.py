@@ -1,4 +1,8 @@
 import json
+import pandas as pd 
+import numpy as np
+
+
 LABEL = "MENU"
 PRICE = "PRICE"
 
@@ -83,4 +87,27 @@ class Data:
                 training_data.append(hold)
 
         return training_data
+
+    @staticmethod
+    def pizza_data():
+        training_data = []
+        placeholders = ["{value}","{value}\n","\n{value}","\n{value}\n"]
+        
+        d = pd.read_csv("datas/pizza.csv")
+        pizzas = d["0"].values
+
+        total_pizzas = len(pizzas)
+        print("total pizza names: ", total_pizzas)
+        print("Generating pizza training data....")
+        
+        for pizza in pizzas:
+            for placeholder in placeholders:
+                s = placeholder.format(value=pizza)
+                data = (s, {"entities": [(s.index(pizza), len(pizza), LABEL)]})
+                training_data.append(data)
+
+        return training_data
+
+        
+
 

@@ -93,7 +93,7 @@ GOOD_DATA = [
 ]
 
 TRAIN_DATA = GOOD_DATA + MENU_ONLY_DATA + BAD_DATA + Data.training_data() + Data.price_data() +Data.lighttag_data('data/lighttag.json')
-
+TRAIN_DATA += Data.pizza_data()
 
 
 @plac.annotations(
@@ -128,6 +128,7 @@ def main(model="models/menu", new_model_name="menu", output_dir="models/menu", n
 
     ner.add_label(LABEL)  # add new entity label to entity recognizer
     ner.add_label(PRICE)  # add new entity label to entity recognizer
+    ner.add_label("PIZZA")  # add new entity label to entity recognizer
     # Adding extraneous labels shouldn't mess anything up
     # ner.add_label("VEGETABLE")
     if model is None:
@@ -139,7 +140,9 @@ def main(model="models/menu", new_model_name="menu", output_dir="models/menu", n
     other_pipes = [pipe for pipe in nlp.pipe_names if pipe != "ner"]
     with nlp.disable_pipes(*other_pipes):  # only train NER
         sizes = compounding(1.0, 4.0, 1.001)
+        # sizes = compounding(4.0, 32.0, 1.001)
         # batch up the examples using spaCy's minibatch
+
         for itn in range(n_iter):
             random.shuffle(TRAIN_DATA)
             batches = minibatch(TRAIN_DATA, size=sizes)
@@ -148,7 +151,6 @@ def main(model="models/menu", new_model_name="menu", output_dir="models/menu", n
                 texts, annotations = zip(*batch)
                 nlp.update(texts, annotations, sgd=optimizer, drop=0.35, losses=losses)
             print("Losses", losses)
-
     # test the trained model
     test_text = "Kibbeh Naye Beirutieh"
     doc = nlp(test_text)
