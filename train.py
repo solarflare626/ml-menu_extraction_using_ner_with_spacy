@@ -51,7 +51,10 @@ PRICE = "PRICE"
 
 BAD_DATA = [
         ("Do they taste good?", {"entities": []}),
+        ("NER systems have been created that use linguistic grammar-based techniques as well as statistical models such as machine learning. Hand-crafted grammar-based systems typically obtain better precision, but at the cost of lower recall and months of work by experienced computational linguists . Statistical NER systems typically require a large amount of manually annotated training data. Semi-supervised approaches have been suggested to avoid part of the annotation effort.\nState-of-the-Art NER Models\nspaCy NER Model :", {"entities": []}),
+        ("What is Named Entity Recognition?", {"entities": []}),
         ("gluten free", {"entities": []}),
+        ("+", {"entities": []}),
 ]
 
 MENU_ONLY_DATA = [
@@ -99,9 +102,15 @@ TRAIN_DATA = GOOD_DATA + MENU_ONLY_DATA + BAD_DATA + Data.training_data() + Data
     output_dir=("Optional output directory", "option", "o", Path),
     n_iter=("100", "option", "n", int),
 )
-def main(model=None, new_model_name="menu", output_dir="models/menu", n_iter=30):
+def main(model="models/menu", new_model_name="menu", output_dir="models/menu", n_iter=30):
     """Set up the pipeline and entity recognizer, and train the new entity."""
     random.seed(0)
+    try:
+        nlp = spacy.load(model)
+    except:
+        model = None
+
+
     if model is not None:
         nlp = spacy.load(model)  # load existing spaCy model
         print("Loaded model '%s'" % model)
