@@ -65,7 +65,7 @@ TRAIN_DATA = GOOD_DATA + MENU_ONLY_DATA + PRICE_DATA + BAD_DATA + Data.training_
 TRAIN_DATA += Data.lighttag_data('data/lighttag.json')
 #add generated pizza menus training data
 #NOTE: Takes time to train only train once
-TRAIN_DATA += Data.pizza_data()
+#TRAIN_DATA += Data.pizza_data()
 
 
 @plac.annotations(
