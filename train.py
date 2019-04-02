@@ -35,6 +35,8 @@ import spacy
 from training_data import Data
 from spacy.util import minibatch, compounding
 from datetime import datetime
+from spacy.gold import GoldParse
+from spacy.scorer import Scorer
 
 #use gpu if cuda is available
 spacy.prefer_gpu()
@@ -61,11 +63,11 @@ PRICE_DATA = Data.read_training_data("datas/PRICE_DATA.txt")
 
 
 
-TRAIN_DATA = GOOD_DATA + MENU_ONLY_DATA + PRICE_DATA + BAD_DATA + Data.training_data()
-TRAIN_DATA += Data.lighttag_data('data/lighttag.json')
+#TRAIN_DATA = GOOD_DATA + MENU_ONLY_DATA + PRICE_DATA + BAD_DATA + Data.training_data()
+#TRAIN_DATA += Data.lighttag_data('data/lighttag.json')
 #add generated pizza menus training data
 #NOTE: Takes time to train only train once
-#TRAIN_DATA += Data.pizza_data()
+TRAIN_DATA += Data.pizza_data()[:10]
 
 
 @plac.annotations(
@@ -147,7 +149,22 @@ def main(model="models/menu", new_model_name="menu", output_dir="models/menu", n
         doc2 = nlp2(test_text)
         for ent in doc2.ents:
             print(ent.label_, ent.text)
+        
+        #get scores
+        scores = evaluate(nlp2,TRAIN_DATA)
 
+        print("Scores: ", scores)
+
+
+
+def evaluate(ner_model, examples):
+    scorer = Scorer()
+    for input_, annot in examples:
+        doc_gold_text = ner_model.make_doc(input_)
+        gold = GoldParse(doc_gold_text, entities=annot)
+        pred_value = ner_model(input_)
+        scorer.score(pred_value, gold)
+    return scorer.scores
 
 if __name__ == "__main__":
     tstart = datetime.now()
@@ -158,3 +175,4 @@ if __name__ == "__main__":
     tend = datetime.now()
     print("End Time: ", tend)
     print("Total Training Time: ", tend - tstart)
+    
