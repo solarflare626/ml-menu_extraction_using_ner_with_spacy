@@ -88,7 +88,7 @@ print("Menu data count: ", len(MENU_DATA))
 # PRICE_DATA = Data.price_data()
 
 #TRAIN_DATA = MENU_DATA[0:200]
-TRAIN_DATA += BAD_DATA + PRICE_DATA + MENU_DATA[0:1000]
+TRAIN_DATA += BAD_DATA + PRICE_DATA + MENU_DATA[0:400]
 
 TRAIN_DATA += Data.lighttag_data('datas/v1/ANNOTATIONS.json')
 
